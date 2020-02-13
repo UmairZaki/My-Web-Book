@@ -24,20 +24,20 @@ import full07 from '../assets/images/fulls/7.jpg'
 import full08 from '../assets/images/fulls/8.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'https://umairportfolio.netlify.com/'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'https://umairzaki-new.netlify.com/'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'https://umair-zaki.netlify.com/'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'https://umairzakiportfolio.netlify.com/'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'https://umairzakicv.netlify.com/'},
+    { id: '1', source: full01, thumbnail: thumb01, caption: 'https://umairnew.netlify.com/'},
+    { id: '2', source: full02, thumbnail: thumb02, caption: 'https://umair-zaki.netlify.com/'},
+    { id: '3', source: full03, thumbnail: thumb03, caption: 'https://umairportfolio.netlify.com/'},
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'https://umairzakicv.netlify.com/'},
+    { id: '5', source: full05, thumbnail: thumb05, caption: 'https://umairzaki-new.netlify.com/'},
     { id: '6', source: full06, thumbnail: thumb06, caption: 'https://umairzakiresume.netlify.com/'},
     { id: '7', source: full07, thumbnail: thumb07, caption: 'https://umairzaki.netlify.com/'},
-    { id: '8', source: full08, thumbnail: thumb08, caption: 'https://umairnew.netlify.com/'}
+    { id: '8', source: full08, thumbnail: thumb08, caption: 'https://umairzakiportfolio.netlify.com/'}
 ];
 
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "Umair Zaki | Shocase"
+        const siteTitle = "Umair Zaki | Showcase"
         const siteDescription = "My Web Book"
 
         return (
@@ -65,7 +65,11 @@ class HomeIndex extends React.Component {
                         
                     </section>
 
-                    
+                    <section className="d">
+                    <div >
+                       <p className="m-0 small">Umair Zaki | 03132873668</p>
+                    </div>
+                    </section>
 
                 </div>
 

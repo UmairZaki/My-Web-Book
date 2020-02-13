@@ -1504,7 +1504,7 @@
 }
 .a{
 	
-	background-image: linear-gradient(to right top, rgb(17, 104, 155), rgb(17, 104, 155), rgb(180, 180, 180), rgb(17, 104, 155), rgb(17, 104, 155), rgb(180, 180, 180), rgb(17, 104, 155), rgb(17, 104, 155), rgb(180, 180, 180), rgb(17, 104, 155), rgb(17, 104, 155), rgb(180, 180, 180), rgb(17, 104, 155), rgb(17, 104, 155), rgb(180, 180, 180));
+	background-image: linear-gradient(to right top, rgb(17, 104, 155), rgb(17, 104, 155), rgb(180, 180, 180), rgb(17, 104, 155), rgb(17, 104, 155), rgb(180, 180, 180), rgb(17, 104, 155), rgb(17, 104, 155), rgb(180, 180, 180), rgb(17, 104, 155), rgb(17, 104, 155), rgb(180, 180, 180), rgb(17, 104, 155), rgb(17, 104, 155), rgb(180, 180, 180), rgb(17, 104, 155), rgb(17, 104, 155),);
 	padding: 3vw 1vw;
 	h2{
 		font-size: 4vw;
@@ -1514,7 +1514,7 @@
 }
 .b{
 	a{
-		font-size: 3vw;
+		font-size: 2.7vw;
 		padding: 0.8vw !important;
 	}
 }
@@ -1524,5 +1524,14 @@
 		display: inline-block;
 		border: solid 2px white;
 		border-radius: 1%;
+	}
+}
+.d{
+	p{
+		font-size: 2vw;
+		color: rgb(255, 79, 79);
+		text-align: center;
+		margin-top: 6vw;
+		margin-bottom: -0.5vw;	
 	}
 }
