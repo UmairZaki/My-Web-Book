@@ -28,8 +28,8 @@ import full09 from '../assets/images/fulls/9.jpg'
 import full10 from '../assets/images/fulls/10.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full10, thumbnail: thumb10, caption: 'https://umairzakiresume.netlify.com/'},
-    { id: '2', source: full09, thumbnail: thumb09, caption: 'https://umairzakicv.netlify.com/'},
+    { id: '1', source: full10, thumbnail: thumb10, caption: 'https://umairresume.netlify.com/'},
+    { id: '2', source: full09, thumbnail: thumb09, caption: 'https://umaircv.netlify.com/'},
     { id: '3', source: full01, thumbnail: thumb01, caption: 'https://umairnew.netlify.com/'},
     { id: '4', source: full02, thumbnail: thumb02, caption: 'https://umair-zaki.netlify.com/'},
     { id: '5', source: full03, thumbnail: thumb03, caption: 'https://umairportfolio.netlify.com/'},
