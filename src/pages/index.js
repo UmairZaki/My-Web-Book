@@ -13,6 +13,8 @@ import thumb05 from '../assets/images/thumbs/5.jpg'
 import thumb06 from '../assets/images/thumbs/6.jpg'
 import thumb07 from '../assets/images/thumbs/7.jpg'
 import thumb08 from '../assets/images/thumbs/8.jpg'
+import thumb09 from '../assets/images/thumbs/9.jpg'
+import thumb10 from '../assets/images/thumbs/10.jpg'
 
 import full01 from '../assets/images/fulls/1.jpg'
 import full02 from '../assets/images/fulls/2.jpg'
@@ -22,16 +24,21 @@ import full05 from '../assets/images/fulls/5.jpg'
 import full06 from '../assets/images/fulls/6.jpg'
 import full07 from '../assets/images/fulls/7.jpg'
 import full08 from '../assets/images/fulls/8.jpg'
+import full09 from '../assets/images/fulls/9.jpg'
+import full10 from '../assets/images/fulls/10.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'https://umairnew.netlify.com/'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'https://umair-zaki.netlify.com/'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'https://umairportfolio.netlify.com/'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'https://umairzakicv.netlify.com/'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'https://umairzaki-new.netlify.com/'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'https://umairzakiresume.netlify.com/'},
-    { id: '7', source: full07, thumbnail: thumb07, caption: 'https://umairzaki.netlify.com/'},
-    { id: '8', source: full08, thumbnail: thumb08, caption: 'https://umairzakiportfolio.netlify.com/'}
+    { id: '1', source: full10, thumbnail: thumb10, caption: 'https://umairzakiresume.netlify.com/'},
+    { id: '2', source: full09, thumbnail: thumb09, caption: 'https://umairzakicv.netlify.com/'},
+    { id: '3', source: full01, thumbnail: thumb01, caption: 'https://umairnew.netlify.com/'},
+    { id: '4', source: full02, thumbnail: thumb02, caption: 'https://umair-zaki.netlify.com/'},
+    { id: '5', source: full03, thumbnail: thumb03, caption: 'https://umairportfolio.netlify.com/'},
+    { id: '6', source: full04, thumbnail: thumb04, caption: 'https://umairzakicv.netlify.com/'},
+    { id: '7', source: full05, thumbnail: thumb05, caption: 'https://umairzaki-new.netlify.com/'},
+    { id: '8', source: full06, thumbnail: thumb06, caption: 'https://umairzakiresume.netlify.com/'},
+    { id: '9', source: full07, thumbnail: thumb07, caption: 'https://umairzaki.netlify.com/'},
+    { id: '10', source: full08, thumbnail: thumb08, caption: 'https://umairzakiportfolio.netlify.com/'}
+    
 ];
 
 class HomeIndex extends React.Component {
