@@ -1044,7 +1044,7 @@
 			background: #fff;
 			bottom: 0;
 			cursor: default;
-			font-size: 0.9em;
+			font-size: 4em;
 			height: 3em;
 			left: 0;
 			line-height: 2.8em;
@@ -1157,7 +1157,7 @@
 		.image {
 			&.thumb {
 				&:before {
-					opacity: 0.5 !important;
+					opacity: 1.0 !important;
 				}
 
 				&:after {
@@ -1506,7 +1506,7 @@
 	
 	background-image: linear-gradient(to left, rgb(77, 77, 77), rgb(0, 63, 100),rgb(0, 63, 100), rgb(180, 180, 180), rgb(0, 135, 212), rgb(0, 135, 212),rgb(0, 135, 212), rgb(180, 180, 180), rgb(0, 63, 100), rgb(0, 63, 100),rgb(0, 63, 100),  rgb(0, 63, 100), rgb(0, 63, 100),rgb(0, 63, 100), rgb(180, 180, 180), rgb(0, 63, 100), rgb(0, 63, 100),rgb(0, 63, 100), rgb(180, 180, 180), rgb(0, 63, 100), rgb(0, 63, 100),rgb(77, 77, 77));
 	background-image:url('../images/1.jpg');
-	background-size: cover;
+	background-size: contain;
 	padding: 3vw 1vw;
 	h2{
 		font-size: 4vw;
@@ -1531,9 +1531,12 @@
 .d{
 	p{
 		font-size: 2vw;
-		color: rgb(255, 79, 79);
+		color: white;
 		text-align: center;
 		margin-top: 6vw;
 		margin-bottom: -0.5vw;	
 	}
+}
+.q{
+	margin-top: -5em !important;
 }
